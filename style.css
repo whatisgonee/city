@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+	transition: 0.5s;
+	background-color: black;
+	cursor: default;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', monospace;
+	color: white;
+}
+
+#city {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+}
+
+#platform {
+	height: 0;
+	width: 110%;
+	border: solid 0.5vh white;
+}
+
+#buildings {
+	display: flex;
+	align-items: end;
+	color: white;
+}
+
+#building1 {
+	height: 120px;
+	border: solid 0.8vh currentColor;
+	border-bottom: none;
+	border-right: none;
+}
+
+#building2 {
+	height: 170px;
+	border: solid 0.8vh currentColor;
+	border-bottom: none;
+}
+
+#building3 {
+	height: 70px;
+	border: solid 0.8vh currentColor;
+	border-bottom: none;
+}
+
+#building4 {
+	height: 140px;
+	border: solid 0.8vh currentColor;
+	border-bottom: none;
+}
+
+#building5 {
+	height: 100px;
+	border: solid 0.8vh currentColor;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+#building6 {
+	height: 180px;
+	border: solid 0.8vh currentColor;
+	border-bottom: none;
+}
+
+#off {
+	border-color: none;
+}
+
+.building {
+	width: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3%;
+}
+
+.window {
+	width: 15px;
+	height: 10px;
+	background-color: white;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 7%;
+}
+
+.off {
+	background-color: black;
+}
+
+#title {
+	text-align: center;
+	font-size: 8.5vw;
+}
